@@ -1,5 +1,6 @@
-# Spotify App Tutorial #
-____
+# Spotify from Scratch #
+#### *Spotify Authorization Flow Tutorial* ####
+___
 
 Hi! My name is Alex :)
 
@@ -9,7 +10,7 @@ As a result I've created this step-by-step tutorial to break down the authorizat
 
 I selected Node.js backend based on a belief that JavaScript & JSON are easy to work with for most people, and can be used on both the server and client sides.
 
-
+<br />
 
 | # | Topic          | File |
 |---|----------------|:-----|
