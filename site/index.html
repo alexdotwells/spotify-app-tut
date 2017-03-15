@@ -24,7 +24,7 @@
   <h1>Spotify App</h1>
 
   <section id="main">
-    &nbsp;
+    <a class="btn" href="/login">Log in with Spotify</a>
   </section>
 
 
@@ -37,6 +37,22 @@
       var controller = {
         init: function() {
           console.log('** spotifyApp init');
+          tokenDeets = controller.getTokenDeetsFromServer();
+
+          var access_token = tokenDeets.access_token;
+          var refresh_token = tokenDeets.refresh_token;
+          var error = tokenDeets.error;
+
+
+        },
+        getTokenDeetsFromServer: function() {
+          var hashParams = {};
+          var e, r = /([^&;=]+)=?([^&;]*)/g,
+              q = window.location.hash.substring(1);
+          while ( e = r.exec(q)) {
+             hashParams[e[1]] = decodeURIComponent(e[2]);
+          }
+          return hashParams;
         }
 
       };
