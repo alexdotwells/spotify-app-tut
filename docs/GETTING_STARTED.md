@@ -1,4 +1,4 @@
-# Spotify App Tut #
+# Spotify App Tut # (created by: alex wells)
 
 ## Prep Work ##
 <br />
