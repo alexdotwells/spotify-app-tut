@@ -4,7 +4,7 @@ ___
 
 Hi! My name is Alex :)
 
-I recently helped a friend understand the [Spotify Authorization & Web API](https://developer.spotify.com/web-api/authorization-guide/) as a result of hearing there were insufficient learning resources available online.
+I recently helped a friend understand the [Spotify Authorization & Web API](https://developer.spotify.com/web-api/authorization-guide/) after hearing there were insufficient learning resources available online.
 
 As a result I've created this step-by-step tutorial to break down the authorization-flow options Spotify has available, and build an application from scratch that will securely authorize & authenticate a user with the Spotify accounts service, and return a token for accessing private endpoints.
 
